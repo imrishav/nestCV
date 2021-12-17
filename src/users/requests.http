@@ -1,0 +1,25 @@
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "abc@gmail.com",
+    "password": "dasdsa"
+}
+
+### with id
+Get http://localhost:3000/auth/1
+
+### with email
+Get http://localhost:3000/auth?email=abc@gmail.com
+
+### update User
+
+PATCH  http://localhost:3000/auth/2
+Content-Type: application/json
+
+{
+    "email": "testttt@gmail.com",
+    "password": "dasdsa"
+}
+
+ 
